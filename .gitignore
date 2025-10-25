@@ -1,21 +1,35 @@
-# Archivos del sistema
+# OS-generated files #
+######################
 .DS_Store
 Thumbs.db
-desktop.ini
+ehthumbs.db
+Icon?
 
-# Archivos de editores
+# Node / npm / build tools (optional future use)
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# Editor folders and files #
+############################
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# Archivos temporales
-*.log
+# Temporary files #
+###################
 *.tmp
 *.bak
 *.swp
-
-# Archivos comprimidos o personales
 *.zip
 *.rar
 *.7z
+
+# Environment files (if any)
+.env
+
+# Misc
+desktop.ini
